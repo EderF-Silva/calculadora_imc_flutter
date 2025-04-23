@@ -1,16 +1,31 @@
-# calculadora_imc_flutter
+# Calculadora de IMC com Flutter
 
-A new Flutter project.
+> Projeto desenvolvido como parte da Pós-Graduação na **PUC Minas** – Plataformas Híbridas - Flutter.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Entrada de peso (em kg) e altura (em metros).
+- Cálculo do IMC com base nos valores inseridos.
+- Classificação do IMC com base nos padrões de saúde.
+- Botão para limpar os campos de entrada e reiniciar o cálculo.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Framework para desenvolvimento de aplicativos multiplataforma.
+- **Dart**: Linguagem de programação utilizada pelo Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🧮 Classificação do IMC
+
+Com base no valor calculado, o aplicativo classifica o IMC nas seguintes categorias:
+
+- **Abaixo do peso**: IMC < 18.5
+- **Peso ideal**: 18.5 ≤ IMC < 24.9
+- **Sobrepeso**: 25 ≤ IMC < 29.9
+- **Obesidade Grau I**: 30 ≤ IMC < 34.9
+- **Obesidade Grau II**: 35 ≤ IMC < 39.9
+- **Obesidade Grau III**: IMC ≥ 40
+
+## 🧑‍💻 Autor
+Desenvolvido por **Eder Silva.**  
+
